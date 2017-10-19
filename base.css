@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.white {
+  color: #fff;
+}
+
+.grey {
+  color: #ababab;
+}
+
+.pink {
+  color: #ff0080;
+}
+
+.black {
+  color: #000;
+}
+
+.page-details {
+  padding-top: 40px;
+}
+
+.page-details strong {
+  font-weight: 700;
+}
+
+.page-details a {
+  text-decoration: none;
+}
+
+.page-details a:hover {
+  text-decoration: underline;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.footnote a {
+  text-decoration: none;
+  padding: 2px;
+}
+
+@import './lazyload.css';
